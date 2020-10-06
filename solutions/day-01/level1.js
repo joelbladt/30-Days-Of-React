@@ -21,3 +21,5 @@ const webTechs = [
     'Node',
     'MongoDB',
 ]
+
+const emptyArray = []
