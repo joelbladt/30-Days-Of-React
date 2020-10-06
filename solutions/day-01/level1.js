@@ -23,3 +23,12 @@ const webTechs = [
 ]
 
 const emptyArray = []
+
+const myArray = [
+    'Hello',
+    'World',
+    'this',
+    'is',
+    '30 Days Of React',
+    'by Asabeneh'
+]
