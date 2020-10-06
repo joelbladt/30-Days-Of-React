@@ -34,3 +34,7 @@ const myArray = [
 ]
 
 console.log("Length of myArray: " + myArray.length);
+
+console.log("First item: " + myArray.filter(x => typeof x!== undefined).shift())
+console.log("Middle item: " + myArray.filter(x => typeof x!== undefined)[Math.round(myArray.length / 2 - 1)])
+console.log("Last item: " + myArray.filter(x => typeof x!== undefined).pop())
