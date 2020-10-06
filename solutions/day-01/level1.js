@@ -32,3 +32,5 @@ const myArray = [
     '30 Days Of React',
     'by Asabeneh'
 ]
+
+console.log("Length of myArray: " + myArray.length);
