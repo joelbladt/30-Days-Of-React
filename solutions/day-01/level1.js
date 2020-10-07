@@ -48,3 +48,13 @@ const mixedArray = [
     false
 ]
 console.log(mixedArray.length);
+
+let itCompanies = [
+    'Facebook',
+    'Google',
+    'Microsoft',
+    'Apple',
+    'IBM',
+    'Oracle',
+    'Amazon'
+]
