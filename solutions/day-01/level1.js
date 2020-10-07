@@ -62,3 +62,7 @@ let itCompanies = [
 console.log(itCompanies);
 
 console.log("Length of itCompanies: " + itCompanies.length);
+
+console.log("First company: " + itCompanies.filter(x => typeof x!== undefined).shift())
+console.log("Middle company: " + itCompanies.filter(x => typeof x!== undefined)[Math.round(itCompanies.length / 2 - 1)])
+console.log("Last company: " + itCompanies.filter(x => typeof x!== undefined).pop())
