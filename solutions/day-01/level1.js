@@ -70,3 +70,5 @@ console.log("Last company: " + itCompanies.filter(x => typeof x!== undefined).po
 itCompanies.forEach((company) => (console.log(company)));
 
 itCompanies.forEach((company, index) => (console.log(company.toUpperCase())));
+
+console.log(itCompanies.toString() + " are big IT companies")
