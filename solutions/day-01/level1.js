@@ -60,3 +60,5 @@ let itCompanies = [
 ]
 
 console.log(itCompanies);
+
+console.log("Length of itCompanies: " + itCompanies.length);
