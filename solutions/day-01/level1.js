@@ -58,3 +58,5 @@ let itCompanies = [
     'Oracle',
     'Amazon'
 ]
+
+console.log(itCompanies);
